@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./script.js" defer></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:wght@500&display=swap');
+  </style>
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <div class="logo">
+     
+      <div class="odin">
+        <img src="./images/odin-lined.png" alt="Odin's head">
+        <p>ODIN</p>
+      </div>
+     
+      <footer>
+        Photo by <a href="https://unsplash.com/@vicko?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vicko Mozara</a> on <a href="https://unsplash.com/s/photos/random?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      </footer>
+    </div>
+    
+    <div class="container">
+    
+      <header>
+        <p>This is not a real online service! Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facilis itaque quam modi vitae minima.</p>
+        <br>
+        <br>
+        <p>You <em>know</em> you want to.</p>
+      </header>
+    
+      <form action="">
+        <section>
+          
+          <h1>Let's do this!</h1>
+
+          <ul>
+             <li>           
+              <label for="firstName">first name<span>*</span></label>
+              <input type="text" name="firstName" id="firstName" minlength="1" required placeholder=" ">
+            </li>
+            <li>
+              <label for="lastName">last name<span>*</span></label>
+              <input type="text" name="lastName" id="lastName" required placeholder=" ">
+            </li>
+            <li>
+              <label for="email">email<span>*</span></label>
+              <input type="email" name="email" id="email" required placeholder=" ">
+             </li>
+            <li>
+              <label for="phoneNumber">phone number</label>
+              <input type="text" name="phoneNumber" id="phoneNumber" min="7" placeholder=" " pattern="\d*">
+            </li>
+            <li>
+              <label for="password">password<span>*</span></label>
+              <input type="password" name="password" id="password" minlength="5" required placeholder=" ">
+            </li>
+            <li>
+              <label for="confirmPassword">confirm password<span>*</span></label>
+              <input type="password" name="confirmPassword" id="confirmPassword" required placeholder=" ">
+            </li>
+          </ul>
+
+          <div class="button">
+            <button type="submit">Create Account</button>
+          </div>
+
+          <footer>
+            <p>Already have an account? <a href="" id="logIn">Log in</a></p>
+          </footer>
+         
+        </section>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
